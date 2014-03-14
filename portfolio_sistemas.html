@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Rodrigo Graf | Design</title>
+
+<link href="estilos/estilo.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+<meta name="Description" content="Portif&oacute;lio de Sistemas Web." /> 
+
+<meta name="Keywords" content="Web Design, Webdesign, Websites, Sites, Internet, Sistemas, Desenvolvimento Web" />
+
+<meta name="Author" content="Rodrigo Graf" />
+
+<meta name="Robots" content="NOYDIR,NOODP" />
+
+<script>
+
+	function sobre(obj) {
+
+		document.getElementById(obj).className='item menu'+obj;
+
+	}
+
+	
+
+	function fora(obj) {
+
+		document.getElementById(obj).className='item menu'+obj+'sel';		
+
+	}
+
+	function menu(obj,acao) {
+
+		if(acao=='sobre') {
+
+			document.getElementById(obj).className='';
+
+		}
+
+		else {
+
+			document.getElementById(obj).className='ativo';
+
+		}
+
+	}
+
+	
+
+</script>
+
+</head>
+
+<body>
+
+<div class="topo">
+
+	<div class="container">
+
+		<div class="logo"> <a href="index.html"><img src="imagens/logo.png" alt="Rodrigo Graf | Design" title="Rodrigo Graf | Design" border="0" /></a> </div>
+
+		<div class="menu">
+
+        	<div class="item menu1" id="1" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="index.html"><img src="imagens/home.png" alt="Home" border="0" title="Home" /></a> </div>
+
+                <div class="descricao"> <a href="index.html"><img src="imagens/icone-home.png" alt="Home" border="0" title="Home" /></a></div>
+
+          </div>
+
+            <div class="item menu2" id="2" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="curriculo.html"><img src="imagens/curriculo.png" alt="About Me" border="0" title="About Me" /></a> </div>
+
+            	<div class="descricao"><a href="curriculo.html">Personal, professional and academic information</a></div>
+
+          </div>          
+
+            <div class="item menu3sel" id="3">
+
+            	<div class="titulo"> <img src="imagens/portfolio.png" alt="Potf&oacute;lio" title="Potf&oacute;lio" /> </div>
+
+            	<div class="descricao">Some projects developed in several design areas</div>
+
+          </div>
+
+            <div class="item menu4" id="4" onmouseover="sobre('3')" onmouseout="fora('3')">            	
+
+                <div class="titulo"> <a href="contato.html"><img src="imagens/contato.png" alt="Contato" border="0" title="Contato" /></a> </div>
+
+                <div class="descricao"><a href="contato.html">If you have questions, suggestions or to get in touch</a></div>
+
+            </div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="conteudo">	
+
+	<div class="geral">    	
+
+    	<div class="tabela">
+
+       	  <div class="menu">      	
+
+      	<ul>
+
+        <li><a id="web" href="portfolio.html" onmouseover="menu('sistemas','sobre')" onmouseout="menu('sistemas','fora')">Websites</a></li>
+
+        <li><a id="interfaces" href="portfolio_interfaces.html" onmouseover="menu('sistemas','sobre')" onmouseout="menu('sistemas','fora')">UI Design</a></li>
+
+        <li><a id="sistemas" class="ativo" href="#">Apps</a></li>        
+
+        <li><a id="impressos" href="portfolio_impressos.html" onmouseover="menu('sistemas','sobre')" onmouseout="menu('sistemas','fora')">Print</a></li>
+
+        <li><a id="logomarcas" href="portfolio_logomarcas.html" onmouseover="menu('sistemas','sobre')" onmouseout="menu('sistemas','fora')">Logos</a></li>
+
+        <li><a id="outros" href="portfolio_outros.html" onmouseover="menu('sistemas','sobre')" onmouseout="menu('sistemas','fora')">Other</a></li>
+
+        </ul>
+
+      </div>
+
+            <div class="projetos">
+
+              <div class="subtitulo">
+
+              	<h1> Incorpore App</h1>
+
+                <p>2008/ 2009 | Vit&oacute;ria ES, Brazil</p>
+
+              </div>
+
+          <div class="imagens">
+
+                    <a><img src="imagens/portfolio/sistema-incorpore-1-mini.png" alt="Sistema de Controle de Alunos Incorpore" title="Sistema de Controle de Alunos Incorpore" /></a>
+
+                    <a><img src="imagens/portfolio/sistema-incorpore-2-mini.png" alt="Sistema de Controle de Alunos Incorpore" title="Sistema de Controle de Alunos Incorpore" /></a>
+
+              </div>
+
+               <div class="subtitulo">
+
+                	<h1> CECLBH App</h1>
+
+                <p>2009 | Belo Horizonte MG, Brazil</p>
+
+              </div>
+
+          <div class="imagens">
+
+            		<a><img src="imagens/portfolio/sistema-ceclbh-1-mini.png" alt="Sistema de Cadastro de Membros CECLBH" title="Sistema de Cadastro de Membros CECLBH" /></a>
+
+              		<a><img src="imagens/portfolio/sistema-ceclbh-2-mini.png" alt="Sistema de Cadastro de Membros CECLBH" title="Sistema de Cadastro de Membros CECLBH" /></a>
+
+           	   </div>               
+
+          </div>
+
+    	</div>
+
+        </div>
+
+</div>
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-4722540-5");
+
+pageTracker._trackPageview();
+
+} catch(err) {}</script>
+
+</body>
+
+</html>
+

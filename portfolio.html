@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Rodrigo Graf | Design</title>
+
+<link href="estilos/estilo.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+<meta name="Description" content="Portif&oacute;lio de Webdesign." /> 
+
+<meta name="Keywords" content="Design, Web Design, Webdesign, Websites, Sites, Internet, Identidade Corporativa, Projetos Gr&aacute;ficos" />
+
+<meta name="Author" content="Rodrigo Graf" />
+
+<meta name="Robots" content="NOYDIR,NOODP" />
+
+<script>
+
+	function sobre(obj) {
+
+		document.getElementById(obj).className='item menu'+obj;
+
+	}
+
+	
+
+	function fora(obj) {
+
+		document.getElementById(obj).className='item menu'+obj+'sel';		
+
+	}
+
+	function menu(obj,acao) {
+
+		if(acao=='sobre') {
+
+			document.getElementById(obj).className='';
+
+		}
+
+		else {
+
+			document.getElementById(obj).className='ativo';
+
+		}
+
+	}
+
+	
+
+</script>
+</head>
+
+<body>
+
+<div class="topo">
+
+	<div class="container">
+
+		<div class="logo"> <a href="index.html"><img src="imagens/logo.png" alt="Rodrigo Graf | Design" title="Rodrigo Graf | Design" border="0" /></a> </div>
+
+		<div class="menu">
+
+        	<div class="item menu1" id="1" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="index.html"><img src="imagens/home.png" alt="Home" border="0" title="Home" /></a> </div>
+
+                <div class="descricao"> <a href="index.html"><img src="imagens/icone-home.png" alt="Home" border="0" title="Home" /></a></div>
+
+          </div>
+
+            <div class="item menu2" id="2" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="curriculo.html"><img src="imagens/curriculo.png" alt="About Me" border="0" title="About Me" /></a> </div>
+
+            	<div class="descricao"><a href="curriculo.html">Personal, professional and academic information</a></div>
+
+          </div>          
+
+            <div class="item menu3sel" id="3">
+
+            	<div class="titulo"> <img src="imagens/portfolio.png" alt="Potf&oacute;lio" title="Potf&oacute;lio" /> </div>
+
+            	<div class="descricao">Some projects developed in several design areas</div>
+
+          </div>
+
+            <div class="item menu4" id="4" onmouseover="sobre('3')" onmouseout="fora('3')">            	
+
+                <div class="titulo"> <a href="contato.html"><img src="imagens/contato.png" alt="Contato" border="0" title="Contato" /></a> </div>
+
+                <div class="descricao"><a href="contato.html">If you have questions, suggestions or to get in touch</a></div>
+
+            </div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="conteudo">	
+
+	<div class="geral">    	
+
+    	<div class="tabela">
+
+       	  <div class="menu">      	
+
+      	<ul>
+
+        <li><a id="web" class="ativo" href="#">Websites</a></li>
+
+        <li><a id="interfaces" href="portfolio_interfaces.html" onmouseover="menu('web','sobre')" onmouseout="menu('web','fora')">UI Design</a></li>
+
+        <li><a id="sistemas" href="portfolio_sistemas.html" onmouseover="menu('web','sobre')" onmouseout="menu('web','fora')">Apps</a></li>
+
+        <li><a id="impressos" href="portfolio_impressos.html" onmouseover="menu('web','sobre')" onmouseout="menu('web','fora')">Print</a></li>
+
+        <li><a id="logomarcas" href="portfolio_logomarcas.html" onmouseover="menu('web','sobre')" onmouseout="menu('web','fora')">Logos</a></li>
+
+        <li><a id="outros" href="portfolio_outros.html" onmouseover="menu('web','sobre')" onmouseout="menu('web','fora')">Other</a></li>
+
+        </ul>
+
+      </div>
+
+            <div class="projetos">
+
+              <div class="subtitulo">
+
+              	<h1>Data Agent</h1>
+
+                <p><a href="http://www.dataagent.com" target="_blank">www.dataagent.com</a><br />
+
+                2011 | Berkeley CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/da-site-1-mini.png" alt="Data Agent" title="Data Agent" /></a>
+
+                    <a><img src="imagens/portfolio/da-site-2-mini.png" alt="Data Agent" title="Data Agent" /></a>
+
+              </div>
+
+              <div class="subtitulo">
+
+              	<h1>Helen Sykes Artists</h1>
+
+                <p><a href="http://www.helensykesartists.co.uk" target="_blank">www.helensykesartists.co.uk</a><br />
+
+                2011 | London, UK<br />
+                <em>(with RBO Consulting)</em></p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/helensykes-1-mini.png" alt="Helen Sykes Artists" title="Helen Sykes Artists" /></a>
+
+                    <a><img src="imagens/portfolio/helensykes-2-mini.png" alt="Helen Sykes Artists" title="Helen Sykes Artists" /></a>
+
+              </div>
+
+              <div class="subtitulo">
+
+              	<h1>Big Basement Company<br />
+
+              	(under development)</h1>
+
+                <p><a href="http://www.bigbasement.com" target="_blank">www.bigbasement.com</a><br />
+
+                2011 | London, UK<br />
+                <em>(with  RBO Consulting)</em></p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/bigbasement-1-mini.png" alt="Big Basement Company" title="Big Basement Company" /></a>
+
+                    <a><img src="imagens/portfolio/bigbasement-2-mini.png" alt="Big Basement Company" title="Big Basement Company" /></a>
+
+              </div>
+
+              <div class="subtitulo">
+
+              	<h1>Beltane<br />
+              	</h1>
+
+                <p><a href="http://www.beltaneglobal.com" target="_blank">www.beltaneglobal.com</a><br />
+
+                2011 | London, UK<br />
+                <em>(with  RBO Consulting)</em></p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/beltane-1-mini.png" alt="Beltane" title="Beltane" /></a>
+
+                    <a><img src="imagens/portfolio/beltane-2-mini.png" alt="Beltane" title="Beltane" /></a>
+
+              </div>
+
+              <div class="subtitulo">
+
+              	<h1>Pure Indulgence Catering<br />
+              	</h1>
+
+                <p><a href="http://www.pureindulgencecatering.co.uk" target="_blank">www.pureindulgencecatering.co.uk</a><br />
+
+                2011 | London, UK<br />
+                <em>(with  RBO Consulting)</em></p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/pure-1-mini.png" alt="Pure Indulgence Catering" title="Pure Indulgence Catering" /></a>
+
+                    <a><img src="imagens/portfolio/pure-2-mini.png" alt="Pure Indulgence Catering" title="Pure Indulgence Catering" /></a>
+
+              </div>
+
+              <div class="subtitulo">
+
+              	<h1>InWeGo<br />
+
+              	(temporary event website)</h1>
+
+                <p><a href="http://www.inwego.com" target="_blank">www.inwego.com</a><br />
+
+                2010 | London, UK</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/inwego-1-mini.png" alt="InWeGo" title="InWeGo" /></a>
+
+                    <a><img src="imagens/portfolio/inwego-2-mini.png" alt="InWeGo" title="InWeGo" /></a>
+
+              </div>
+
+			  <div class="subtitulo">
+
+              	<h1>iPortfolio<br />
+
+              	(merged with Data Agent)</h1>
+
+                <p><a href="http://www.iportfolio.com" target="_blank">www.iportfolio.com</a><br />
+
+                2010 | San Francisco CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/iportfolio-1-mini.png" alt="iPortfolio" title="iPortfolio" /></a>
+
+                    <a><img src="imagens/portfolio/iportfolio-2-mini.png" alt="iPortfolio" title="iPortfolio" /></a>
+
+              </div>
+
+			  <div class="subtitulo">
+
+              	<h1>glossLegal</h1>
+
+                <p><a href="http://www.glosslegal.co.uk" target="_blank">www.glosslegal.co.uk</a><br />
+
+                2009/2010 | London, UK</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/glosslegal-1-mini.png" alt="glossLegal" title="glossLegal" /></a>
+
+                    <a><img src="imagens/portfolio/glosslegal-2-mini.png" alt="glossLegal" title="glossLegal" /></a>
+
+              </div>
+
+			  <div class="subtitulo">
+
+              	<h1>Cancernet.co.uk<br />
+
+              	(under development) </h1>
+
+                <p><a href="http://www.cancernet.co.uk" target="_blank">www.cancernet.co.uk</a><br />
+
+                2010 | London, UK</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/cancernet-1-mini.png" alt="Cancernet.co.uk" title="Cancernet.co.uk" /></a>
+
+                    <a><img src="imagens/portfolio/cancernet-2-mini.png" alt="Cancernet.co.uk" title="Cancernet.co.uk" /></a>
+
+              </div>
+
+			  <div class="subtitulo">
+
+              	<h1>Advonce</h1>
+
+                <p><a href="http://www.advonce.com" target="_blank">www.advonce.com</a><br />
+
+                2007 | San Jose CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/advonce-1-mini.png" alt="Advonce" title="Advonce" /></a>
+
+                    <a><img src="imagens/portfolio/advonce-3-mini.png" alt="Advonce" title="Advonce" /></a>
+
+              </div>
+
+               <div class="subtitulo">
+
+                	<h1>Incorpore Assessoria Esportiva</h1>
+
+                    <p>www.incorporeonline.com.br<br />
+
+                    2008 | Vit&oacute;ria ES, Brazil</p>
+
+               </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/incorpore-1-mini.png" alt="Incorpore" title="Incorpore" /></a>
+
+              		<a><img src="imagens/portfolio/incorpore-2-mini.png" alt="Incorpore" title="Incorpore" /></a>
+
+           	   </div>
+
+               <div class="subtitulo">
+
+                	<h1>Flukxo</h1>
+
+                    <p><a href="http://www.flukxo.com" target="_blank">www.flukxo.com</a><br />
+
+                 2007 | Vit&oacute;ria ES, Brazil</p>
+
+              </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/flukxo-1-mini.png" alt="Flukxo" title="Flukxo" /></a>
+
+              		<a><img src="imagens/portfolio/flukxo-2-mini.png" alt="Flukxo" title="Flukxo" /></a>
+
+       	      </div>
+
+			  <div class="subtitulo">
+
+                	<h1>Bruna Chinelos Personalizados</h1>
+
+                    <p><a href="http://www.brunachinelos.hd1.com.br" target="_blank">www.brunachinelos.hd1.com.br</a><br />
+
+                 2009 | Vit&oacute;ria ES, Brazil</p>
+
+              </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/brunachinelos-1-mini.png" alt="Bruna Chinelos Personalizados" title="Bruna Chinelos Personalizados" /></a>
+
+              		<a><img src="imagens/portfolio/brunachinelos-2-mini.png" alt="Bruna Chinelos Personalizados" title="Bruna Chinelos Personalizados" /></a>
+
+       	      </div>
+
+               <div class="subtitulo">
+
+                	<h1>mHave</h1>
+
+                 <p>www.mhave.com<br />
+
+                   2005 | Foster City CA, USA<br />
+
+                    (venfida para a BOKU: <a href="http://www.boku.com" target="_blank">www.boku.com</a>) </p>
+
+              </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/mhave-1-mini.png" alt="mHave" title="mHave" /></a>
+
+              		<a><img src="imagens/portfolio/mhave-2-mini.png" alt="mHave" title="mHave" /></a>
+
+       	      </div>
+
+			  <div class="subtitulo">
+
+                	<h1>Paymo GMS</h1>
+
+                <p>www.paymogms.com<br />
+
+                  2009 | San Francisco CA, USA<br />
+
+                    (atualmente parte da BOKU: <a href="http://www.boku.com" target="_blank">www.boku.com</a>)</p>
+
+              </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/paymogms-1-mini.png" alt="Paymo GMS" title="Paymo GMS" /></a>
+
+              		<a><img src="imagens/portfolio/paymogms-2-mini.png" alt="Paymo GMS" title="Paymo GMS" /></a>
+
+       	      </div>
+
+               
+
+               
+
+               <div class="subtitulo">
+
+                	<h1>Funda&ccedil;&atilde;o Sementes</h1>
+
+                 <p>www.sementes.org.br<br />
+
+                    2002 | Vit&oacute;ria, ES</p>
+
+              </div>
+
+              <div class="imagens">
+
+            		<a><img src="imagens/portfolio/sementes-2-mini.png" alt="Funda&ccedil;&atilde;o Sementes" title="Funda&ccedil;&atilde;o Sementes" /></a>
+
+              		<a><img src="imagens/portfolio/sementes-3-mini.png" alt="Funda&ccedil;&atilde;o Sementes" title="Funda&ccedil;&atilde;o Sementes" /></a>
+
+       	      </div>
+
+               <div class="subtitulo">
+
+                	<h1>Centro de Forma&ccedil;&atilde;o Martim Lutero</h1>
+
+                    <p><a href="http://web.archive.org/web/20040831033057/http://www.martimlutero.org.br/" target="_blank">www.martimlutero.org.br</a><br />
+
+                 2002 | Vit&oacute;ria, ES</p>
+
+              </div>
+
+               <div class="imagens">
+
+            		<a><img src="imagens/portfolio/cfml-1-mini.png" alt="Centro de Forma&ccedil;&atilde;o Martim Lutero" title="Centro de Forma&ccedil;&atilde;o Martim Lutero" /></a>
+
+              		<a><img src="imagens/portfolio/cfml-3-mini.png" alt="Centro de Forma&ccedil;&atilde;o Martim Lutero" title="Centro de Forma&ccedil;&atilde;o Martim Lutero" /></a>
+
+           	   </div>
+
+          </div>
+
+    	</div>
+
+        </div>
+
+</div>
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-4722540-5");
+
+pageTracker._trackPageview();
+
+} catch(err) {}</script>
+
+</body>
+
+</html>
+

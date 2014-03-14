@@ -1,0 +1,631 @@
+/* CSS Criado por Rodrigo Graf */
+
+body {
+	font-family: Georgia, Times, Verdana, Arial, "Lucida Sans", Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	/*background-color:#6c6c6c;	*/
+	background-color:#dedfe0;
+	background-image:url(../imagens/fundo.png);
+	background-repeat:repeat-x;
+}
+
+a {	
+	color: #333;
+	text-decoration:underline;	
+}
+
+a:hover {		
+	color:#666;
+	text-decoration:underline;
+}
+
+.topo {
+	width:100%;
+	height:136px;	
+	padding:0px;
+	background-image:url(../imagens/bg.png);
+}
+
+.topo .container {
+	width:940px;
+	height:136px;	
+	margin:0 auto;	
+	padding:0px;	
+}
+
+.topo .container .logo {
+	float:left;	
+}
+
+.topo .container .menu {
+	padding:0px;
+	float:right;
+	width:264px;
+	height:108px;
+	margin-top:14px;
+}
+
+.topo .container .menu a {	
+	color: #fff;
+	text-decoration:none;
+}
+
+.topo .container .menu a:hover {		
+	color:#fff;
+	text-decoration:none;
+}
+
+.topo .container .menu .item {
+	float:left;		
+	width:30px;
+	height:102px;
+	margin-right:0px;
+	cursor:pointer;
+}
+
+.topo .container .menu .descricao {	
+	height:76px;
+	line-height:19px;
+	padding-top:12px;
+	padding-left:30px;
+	padding-right:2px;
+	color:#fff;
+	
+}
+
+.topo .container .menu .menu1 {
+	width:42px;
+	max-width:42px;
+	height:108px;
+	margin-right:0px;
+	
+	background-image:url(../imagens/home-bg.png);
+	background-repeat:no-repeat;
+	
+	
+	padding-left:15px;
+	margin-right:-15px;
+	font-size:0px;
+}
+
+.topo .container .menu .menu1:hover {
+	background-image:url(../imagens/home-bg-over.png);
+	width:154px;
+	max-width:154px;
+}
+
+.topo .container .menu .menu1:hover .titulo {
+	display:none;
+}
+
+.topo .container .menu .menu1:hover .descricao {
+	display:block;
+}
+
+.topo .container .menu .menu1 .descricao {
+	display:none;
+}
+
+.topo .container .menu .menu1sel {
+	width:154px;
+	height:108px;
+	margin-right:0px;
+	
+	background-image:url(../imagens/home-bg-over.png);
+	background-repeat:no-repeat;
+		
+	padding-left:15px;
+	margin-right:-15px;
+}
+
+.topo .container .menu .menu1sel .titulo {
+	float:left;
+	display:none;
+}
+
+.topo .container .menu .menu2 {
+	background-color:#fcc46c;
+	/*background-image:url(../imagens/home.png);*/
+	background-repeat:no-repeat;
+	border:#fbb03b 3px solid;
+	
+	line-height:19px;	
+	color:#fff;
+	font-size:0px;
+}
+
+.topo .container .menu .menu2:hover {
+	background-color:#f3be69;
+	border:#fcc46c 3px solid;
+	width:142px;
+
+	font-size:16px;
+}
+
+.topo .container .menu .menu2 .titulo {	
+	/*height:26px;
+	line-height:26px;
+	padding-left:5px;
+	background-color:#2083c4;
+	color:#fff;
+	font-size:21px;*/
+	float:left;
+}
+
+.topo .container .menu .menu2 .descricao {	
+	display:none;
+}
+
+.topo .container .menu .menu2:hover .descricao {	
+	display:block;
+	#float:left;
+	#padding-left:4px;
+}
+
+.topo .container .menu .menu2sel {
+	background-color:#f3be69;
+	border:#fcc46c 3px solid;
+	width:142px;
+
+	font-size:16px;
+}
+
+.topo .container .menu .menu2sel .titulo {	
+	float:left;
+}
+
+.topo .container .menu .menu3 {	
+	background-color:#8cc63f;
+	/*background-image:url(../imagens/home.png);*/
+	background-repeat:no-repeat;
+	border:#39b54a 3px solid;
+	
+	line-height:19px;	
+	color:#fff;
+	font-size:0px;
+}
+
+.topo .container .menu .menu3:hover {	
+	background-color:#87bf3e;
+	border:#8cc63f 3px solid;
+	width:142px;
+	
+	font-size:16px;
+}
+
+.topo .container .menu .menu3 .titulo {	
+	/*height:26px;
+	line-height:26px;
+	padding-left:5px;
+	background-color:#39b54a;
+	color:#fff;
+	font-size:21px;*/
+	float:left;
+}
+
+.topo .container .menu .menu3 .descricao {	
+	display:none;
+}
+
+.topo .container .menu .menu3:hover .descricao {	
+	display:block;
+	#float:left;
+	#padding-left:4px;
+}
+
+.topo .container .menu .menu3sel {
+	background-color:#87bf3e;
+	border:#8cc63f 3px solid;
+	width:142px;
+
+	font-size:16px;
+}
+
+.topo .container .menu .menu3sel .titulo {	
+	float:left;
+}
+
+.topo .container .menu .menu4 {
+	background-color:#60a6d5;
+	/*background-image:url(../imagens/home.png);*/
+	background-repeat:no-repeat;
+	border:#2083c4 3px solid;
+	
+	line-height:19px;	
+	color:#fff;
+	font-size:0px;
+}
+
+.topo .container .menu .menu4:hover {
+	background-color:#5da0cd;
+	border:#60a6d5 3px solid;
+	width:142px;
+	
+	font-size:16px;	
+}
+
+.topo .container .menu .menu4 .titulo {	
+	/*height:26px;
+	line-height:26px;
+	padding-left:5px;
+	background-color:#fbb03b;
+	color:#fff;
+	font-size:21px;*/
+	float:left;
+}
+
+.topo .container .menu .menu4 .descricao {	
+	display:none;
+}
+
+.topo .container .menu .menu4:hover .descricao {	
+	display:block;
+	#float:left;
+	#padding-left:4px;
+}
+
+.topo .container .menu .menu4sel {
+	background-color:#5da0cd;
+	border:#60a6d5 3px solid;
+	width:142px;
+
+	font-size:16px;
+}
+
+.topo .container .menu .menu4sel .titulo {	
+	float:left;
+}
+
+.conteudo {
+	width:100%;
+	margin-top:40px;
+	padding:0px;
+	min-height:400px;
+}
+
+.conteudo .home {
+	width:940px;
+	height:240px;
+	margin:0 auto;
+	margin-top:125px;
+}
+
+.conteudo .home .texto {
+	color:#1a1a1a;
+	font-size:64px;
+	line-height:59px;
+	letter-spacing:-3px;	
+	margin-left:40px;
+	margin-right:40px;
+}
+
+.conteudo .home .texto a {
+	color:#1a1a1a;
+	text-decoration:none;
+}
+
+.conteudo .home .texto a:hover {
+	color:#ededed;
+	background:#8cc63f;
+}
+
+.conteudo .geral {
+	width:940px;
+	min-height:240px;
+	margin:0 auto;
+	margin-top:125px;
+}
+
+.conteudo .geral .tabela {	
+	clear:both;
+}
+
+.conteudo .geral .tabela .titulo {
+	width:300px;
+	color:#1a1a1a;
+	font-size:24px;
+	line-height:24px;
+	margin-left:40px;
+	margin-right:20px;
+	float:left;
+}
+
+.conteudo .geral .tabela .info {
+	width:580px;	
+	float:right;
+	margin-bottom:30px;
+}
+
+.conteudo .geral .tabela .projetos {
+	width:680px;	
+	float:right;
+	margin-bottom:30px;
+}
+
+.conteudo .geral .tabela .subtitulo {
+	width:120px;	
+	color:#1a1a1a;
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+	line-height:14px;
+	text-align:right;
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:5px;
+	float:left;
+}
+
+.conteudo .geral .tabela .texto {
+	width:430px;
+	color:#1a1a1a;
+	font-size:12px;
+	line-height:14px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:20px;
+	float:left;
+	white-space:normal;
+}
+
+.conteudo .geral .tabela .texto p {
+	margin:0px;
+	margin-bottom:15px;
+}
+
+/*novos*/
+
+.conteudo .geral .tabela .projetos .subtitulo {
+	width:220px;		
+	margin-left:0px;
+	margin-right:10px;
+	margin-top:5px;
+	float:left;
+}
+
+.conteudo .geral .tabela .projetos .subtitulo h1 {	
+	color:#1a1a1a;
+	font-size:11px;
+	font-weight:bold;
+	font-style:italic;
+	line-height:14px;
+	text-align:right;
+	margin:0px;
+}
+
+.conteudo .geral .tabela .projetos .detalhes {
+	width:430px;		
+	color:#1a1a1a;
+	font-size:12px;
+	line-height:14px;
+	margin-left:230px;
+	margin-right:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	white-space:normal;	
+	float:left;
+	
+}
+
+.conteudo .geral .tabela .projetos .subtitulo p {	
+	color:#1a1a1a;
+	font-size:11px;	
+	font-weight:normal;
+	font-style:normal;
+	line-height:14px;
+	text-align:right;
+	margin:3px 0px;	
+}
+
+.conteudo .geral .tabela .projetos .imagens {	
+	width:430px;	
+	margin-left:0px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:0px;
+	float:left;
+	white-space:normal;
+}
+
+.conteudo .geral .tabela .projetos .imagens img {
+	padding:2px;
+	margin:0px;	
+	background-color:#ccc;
+	border:#666 1px solid;
+}
+
+.conteudo .geral .tabela .projetos .imagens img:hover {
+	padding:1px;
+	background-color:#ccc;
+	border:#333 2px solid;
+}
+
+.conteudo .geral .tabela .projetos .imagens a:hover {
+	cursor:default;
+}
+
+.conteudo .geral .tabela .projetos a {
+	text-decoration:none;
+}
+
+.conteudo .geral .tabela .projetos a:hover {
+	text-decoration:underline;
+}
+
+.conteudo .geral .tabela .menu {
+	width:150px;
+	color:#1a1a1a;
+	font-size:24px;
+	line-height:32px;
+	margin-left:40px;
+	margin-right:20px;
+	float:left;
+}
+
+.conteudo .geral .tabela .menu ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+.conteudo .geral .tabela .menu li {
+	list-style:none;
+}
+
+.conteudo .geral .tabela .menu li a {
+	text-decoration:none;
+	color:#1a1a1a;
+}
+
+.conteudo .geral .tabela .menu li a:hover {	
+	margin-top:-3px;	
+	margin-bottom:-3px;
+	border-top:#cf8a01 3px solid;
+	border-bottom:#cf8a01 3px solid;
+	text-decoration:none;
+	color:#000;
+}
+
+.conteudo .geral .tabela .menu li a.ativo {	
+	margin-top:-3px;	
+	margin-bottom:-3px;
+	border-top:#cf8a01 3px solid;
+	border-bottom:#cf8a01 3px solid;
+	text-decoration:none;
+	color:#000;
+}
+
+
+/*fim novos*/
+
+.conteudo .geral .portfolio {	
+	clear:both;
+}
+
+.conteudo .geral .portfolio .menu {
+	width:150px;
+	color:#1a1a1a;
+	font-size:24px;
+	line-height:32px;
+	margin-left:40px;
+	margin-right:20px;
+	float:left;
+}
+
+.conteudo .geral .portfolio .menu ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+
+.conteudo .geral .portfolio .menu li {
+	list-style:none;
+}
+
+.conteudo .geral .portfolio .menu li a {
+	text-decoration:none;
+	color:#1a1a1a;
+}
+
+.conteudo .geral .portfolio .menu li a:hover {	
+	margin-top:-3px;	
+	margin-bottom:-3px;
+	border-top:#cf8a01 3px solid;
+	border-bottom:#cf8a01 3px solid;
+	text-decoration:none;
+	color:#000;
+}
+
+.conteudo .geral .portfolio .menu li a.ativo {	
+	margin-top:-3px;	
+	margin-bottom:-3px;
+	border-top:#cf8a01 3px solid;
+	border-bottom:#cf8a01 3px solid;
+	text-decoration:none;
+	color:#000;
+}
+
+.conteudo .geral .portfolio .quadro {
+	width:730px;	
+	float:right;
+	margin-bottom:30px;
+	padding-bottom:30px;
+}
+
+.conteudo .geral .portfolio .quadro .topo {
+	width:730px;
+	height:20px;
+	background-image:url(../imagens/quadro-topo.png);
+	background-repeat:no-repeat;
+	float:right;	
+}
+
+.conteudo .geral .portfolio .quadro .base {
+	width:730px;
+	height:20px;
+	background-image:url(../imagens/quadro-base.png);
+	background-repeat:no-repeat;
+	float:right;	
+}
+
+.conteudo .geral .portfolio .quadro .meio {
+	width:730px;
+	min-height:100px;
+	background-color:#262626;
+	float:right;
+	padding-bottom:20px;
+}
+
+.conteudo .geral .portfolio .quadro .meio .titulo {
+	width:400px;	
+	color:#fff;
+	font-size:24px;
+	line-height:24px;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:5px;
+	margin-bottom:15px;
+	float:left;	
+}
+
+.conteudo .geral .portfolio .quadro .meio .info {
+	width:270px;	
+	color:#fff;
+	font-size:11px;
+	text-align:right;
+	line-height:14px;
+	margin-left:10px;
+	margin-right:20px;
+	margin-top:5px;
+	margin-bottom:15px;
+	float:right;	
+}
+
+.conteudo .geral .portfolio .quadro .meio .texto {
+	width:700px;	
+	color:#fff;
+	font-size:11px;
+	line-height:15px;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:40px;
+	clear:both;
+}
+
+.conteudo .geral .portfolio .quadro .meio .imagens {
+	width:700px;	
+	color:#fff;
+	margin-left:55px;
+	margin-right:55px;
+	margin-top:20px;
+	margin-bottom:20px;
+	clear:both;
+}
+
+.conteudo .geral .portfolio .quadro .meio .imagens img {
+	padding:1px;
+	margin:0px;
+	border:#666 1px solid;
+}

@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Rodrigo Graf | Design</title>
+
+<link href="estilos/estilo.css" rel="stylesheet" type="text/css" />
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+
+<meta name="Description" content="Portif&oacute;lio de Outros Projetos Realizados." /> 
+
+<meta name="Keywords" content="Anima&ccedil;&atilde;o, Edi&ccedil;&atilde;o de V&iacute;deo, 3D, Marketing Online" />
+
+<meta name="Author" content="Rodrigo Graf" />
+
+<meta name="Robots" content="NOYDIR,NOODP" />
+
+<script>
+
+	function sobre(obj) {
+
+		document.getElementById(obj).className='item menu'+obj;
+
+	}
+
+	
+
+	function fora(obj) {
+
+		document.getElementById(obj).className='item menu'+obj+'sel';		
+
+	}
+
+	function menu(obj,acao) {
+
+		if(acao=='sobre') {
+
+			document.getElementById(obj).className='';
+
+		}
+
+		else {
+
+			document.getElementById(obj).className='ativo';
+
+		}
+
+	}
+
+	
+
+</script>
+
+</head>
+
+<body>
+
+<div class="topo">
+
+	<div class="container">
+
+		<div class="logo"> <a href="index.html"><img src="imagens/logo.png" alt="Rodrigo Graf | Design" title="Rodrigo Graf | Design" border="0" /></a> </div>
+
+		<div class="menu">
+
+        	<div class="item menu1" id="1" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="index.html"><img src="imagens/home.png" alt="Home" border="0" title="Home" /></a> </div>
+
+                <div class="descricao"> <a href="index.html"><img src="imagens/icone-home.png" alt="Home" border="0" title="Home" /></a></div>
+
+          </div>
+
+            <div class="item menu2" id="2" onmouseover="sobre('3')" onmouseout="fora('3')">
+
+            	<div class="titulo"> <a href="curriculo.html"><img src="imagens/curriculo.png" alt="About Me" border="0" title="About Me" /></a> </div>
+
+            	<div class="descricao"><a href="curriculo.html">Personal, professional and academic information</a></div>
+
+          </div>          
+
+            <div class="item menu3sel" id="3">
+
+            	<div class="titulo"> <img src="imagens/portfolio.png" alt="Potf&oacute;lio" title="Potf&oacute;lio" /> </div>
+
+            	<div class="descricao">Some projects developed in several design areas</div>
+
+          </div>
+
+            <div class="item menu4" id="4" onmouseover="sobre('3')" onmouseout="fora('3')">            	
+
+                <div class="titulo"> <a href="contato.html"><img src="imagens/contato.png" alt="Contato" border="0" title="Contato" /></a> </div>
+
+                <div class="descricao"><a href="contato.html">If you have questions, suggestions or to get in touch</a></div>
+
+            </div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div class="conteudo">	
+
+	<div class="geral">    	
+
+    	<div class="tabela">
+
+       	  <div class="menu">      	
+
+      	<ul>
+
+        <li><a id="web" href="portfolio.html" onmouseover="menu('outros','sobre')" onmouseout="menu('outros','fora')">Websites</a></li>
+
+        <li><a id="interfaces" href="portfolio_interfaces.html" onmouseover="menu('outros','sobre')" onmouseout="menu('outros','fora')">UI Design</a></li>
+
+        <li><a id="sistemas" href="portfolio_sistemas.html" onmouseover="menu('outros','sobre')" onmouseout="menu('outros','fora')">Apps</a></li>
+
+        <li><a id="impressos" href="portfolio_impressos.html" onmouseover="menu('outros','sobre')" onmouseout="menu('outros','fora')">Print</a></li>
+
+        <li><a id="logomarcas" href="portfolio_logomarcas.html" onmouseover="menu('outros','sobre')" onmouseout="menu('outros','fora')">Logos</a></li>
+
+        <li><a id="outros" class="ativo" href="#">Other</a></li>
+
+        </ul>
+
+      </div>
+
+            <div class="projetos">
+
+              <div class="subtitulo">
+
+              	<h1>Face.com: Newsletters</h1>
+
+                <p>2011 | San Francisco CA, USA / Tel Aviv, Israel</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/face-1-mini.png" alt="Face.com" title="Face.com" /></a>
+
+					<a><img src="imagens/portfolio/face-2-mini.png" alt="Face.com" title="Face.com" /></a>
+
+			  </div>              
+
+			  <div class="subtitulo">
+
+              	<h1>BOKU: Facebook Fan Page</h1>
+
+                <p>2011/2012 | San Francisco CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/boku-fb-mini.png" alt="BOKU Facebook Fan Page" title="BOKU Facebook Fan Page" /></a>
+                    <a><img src="imagens/portfolio/boku-fb-mini-2.png" alt="BOKU Facebook Fan Page" title="BOKU Facebook Fan Page" /></a>					
+
+			  </div>              
+              
+              <div class="subtitulo">
+
+              	<h1>glossLegal:  Marketing Campaign</h1>
+
+                <p>2010 | London, UK</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/glosslegal-campaign-1-mini.png" alt="V&iacute;deo Advonce" title="V&iacute;deo Advonce" /></a>
+
+					<a><img src="imagens/portfolio/glosslegal-campaign-2-mini.png" alt="V&iacute;deo Advonce" title="V&iacute;deo Advonce" /></a>
+
+			  </div>
+              
+              <div class="subtitulo">
+
+              	<h1>Radical Leap: Event Hotsite</h1>
+
+                <p>2010 | London, UK</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/rl-site-mini.png" alt="Radical Leap" title="Radical Leap" /></a>					
+
+			  </div>
+
+			  <div class="subtitulo">
+
+              	<h1>Advonce: Marketing Video</h1>
+
+                <p>(with River Street)<br />
+
+                2007 | Los Angeles CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/video-1-mini.png" alt="V&iacute;deo Advonce" title="V&iacute;deo Advonce" /></a>
+
+                    <a><img src="imagens/portfolio/video-2-mini.png" alt="V&iacute;deo Advonce" title="V&iacute;deo Advonce" /></a>
+
+			  </div>
+
+                <div class="subtitulo">
+
+              	<h1>Boku Booth</h1>
+
+                <p>Engage! Expo<br />
+
+                2009 | San Franscisco CA, USA</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/boku-booth-1-mini.png" alt="Estande Boku" title="Estande Boku" /></a>
+
+                    <a><img src="imagens/portfolio/boku-booth-2-mini.png" alt="Estande Boku" title="Estande Boku" /></a>
+
+			  </div>
+
+				<div class="subtitulo">
+
+              	<h1> Boku Campaign</h1>
+
+                <p>2009</p>
+
+              </div>
+
+              <div class="imagens">
+
+                    <a><img src="imagens/portfolio/boku-gif-1-mini.png" alt="Boku" title="Boku" /></a>
+
+                    <a><img src="imagens/portfolio/boku-gif-2-mini.png" alt="Boku" title="Boku" /></a>
+
+			  </div>
+
+				<div class="subtitulo">
+
+                	<h1>Paymo: Banners for Google Ads</h1>
+
+                    <p>2009</p>
+
+                </div>
+
+              <div class="imagens">
+
+            		<a><img src="imagens/portfolio/banner-1-mini.png" alt="Paymo: Banners para Google Ads" title="Paymo: Banners para Google Ads" /></a>
+
+              		<a><img src="imagens/portfolio/banner-2-mini.png" alt="Paymo: Banners para Google Ads" title="Paymo: Banners para Google Ads" /></a>
+
+           	  </div>
+
+                <div class="detalhes">Observa&ccedil;&otilde;es: Redesign de banners j&aacute; existentes </div>
+
+		  </div>
+
+        </div>
+
+        </div>
+
+</div>
+
+<script type="text/javascript">
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+</script>
+
+<script type="text/javascript">
+
+try {
+
+var pageTracker = _gat._getTracker("UA-4722540-5");
+
+pageTracker._trackPageview();
+
+} catch(err) {}</script>
+
+</body>
+
+</html>
+
